@@ -15,7 +15,7 @@ jobs:
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@3.1.1
       with:
-        ftp-server: ftps://ftp.samkirkland.com:21/
-        ftp-username: myFTPSUsername
-        ftp-password: ${{ secrets.FTPS_PASSWORD }}
+        ftp-server: ftps://elev.htxroskilde.dk:21/
+        ftp-username: 4912311
+        ftp-password: ${{ secrets.FTP_PASSWORD }}
         git-ftp-args: --insecure # if your certificate is setup correctly this can be removed
