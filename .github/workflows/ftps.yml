@@ -14,3 +14,4 @@ jobs:
         ftp-server: ftp://elev.htxroskilde.dk/
         ftp-username: "4912311"
         ftp-password: ${{ secrets.FTP_PASSWORD }}
+        git-ftp-args: --insecure
